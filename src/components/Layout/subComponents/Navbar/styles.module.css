@@ -1,3 +1,6 @@
+.navBG {
+  background: #636c79;
+}
 .navWrapper {
   display: flex;
   justify-content: space-between;

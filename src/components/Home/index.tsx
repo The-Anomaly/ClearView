@@ -1,19 +1,15 @@
 import * as React from "react";
+import { HeroSection } from "./HeroSection";
 import styles from "./styles.module.css";
 
 const HomeUI = () => {
   return (
     <>
-      <div>
+      <section>
+        <HeroSection />
         <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-      </div>
+       
+      </section>
     </>
   );
 };

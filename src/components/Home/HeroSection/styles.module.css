@@ -1,0 +1,46 @@
+.heroBG {
+  background: #636c79;
+}
+.heroContainer {
+  display: flex;
+  padding-top: 7.5rem;
+  padding-bottom: 6rem;
+}
+.textSection {
+  width: 50%;
+}
+.textSection h1 {
+  color: #f3f3f3;
+  font-family: "Sora";
+  font-size: 3.5rem;
+  max-width: 500px;
+  margin-bottom: 1.3rem;
+}
+.textSection p {
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+  max-width: 430px;
+}
+.imageSection {
+  width: 50%;
+  position: relative;
+}
+.firstImage {
+  width: 100%;
+  max-width: 492px;
+}
+.secondImage {
+  position: absolute;
+  right: 0;
+  top: -2rem;
+  width: 100%;
+  max-width: 458px;
+}
+.heroBadge {
+  position: absolute;
+  bottom: -77px;
+  right: 10px;
+}

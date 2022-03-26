@@ -1,10 +1,11 @@
 import * as React from "react";
 import { Navbar } from "./subComponents";
 
-const Layout = () => {
+const Layout = ({children}) => {
   return (
     <React.Fragment>
       <Navbar />
+      {children}
     </React.Fragment>
   );
 };

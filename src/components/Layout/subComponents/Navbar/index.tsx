@@ -6,8 +6,8 @@ import styles from "./styles.module.css";
 
 const Navbar = () => {
   return (
-    <section className={`appContainer`}>
-      <div className={styles.navWrapper}>
+    <section className={styles.navBG}>
+      <div className={`appContainer ${styles.navWrapper}`}>
         <ClearViewWhite className={styles.navLogo} title="clear view" />
         <nav className={styles.navList}>
           <Link to="/">Home</Link>

@@ -6,9 +6,12 @@
   font-size: 15px;
 }
 .large {
+  padding: 1.2rem 4.5rem;
+  font-size: 17px;
+  letter-spacing: 1px;
 }
 .normal {
-    padding: 16px 2rem;
+  padding: 16px 2rem;
 }
 .full {
   width: 100%;
