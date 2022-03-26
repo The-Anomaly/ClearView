@@ -58,9 +58,15 @@
 /* Helvetica Neue */
 @font-face {
   font-family: "Helvetica Neue";
+  font-weight: 300;
+  font-display: swap;
+  src: url("fonts/Helvetica/HelveticaNeue-Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: "Helvetica Neue";
   font-weight: 400;
   font-display: swap;
-  src: url("fonts/Helvetica/HelveticaNeue-Extended.otf") format("opentype");
+  src: url("fonts/Helvetica/HelveticaNeue-Light.otf") format("opentype");
 }
 @font-face {
   font-family: "Helvetica Neue";
@@ -68,19 +74,44 @@
   font-display: swap;
   src: url("fonts/Helvetica/HelveticaNeue-Medium.otf") format("opentype");
 }
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 600;
+  font-display: swap;
+  src: url("fonts/Helvetica/HelveticaNeue-Extended.otf") format("opentype");
+}
 
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  font-family: "Helvetica-Neue";
-
+  font-family: "Helvetica Neue";
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #636c79;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.appContainer {
+  max-width: 1200px;
+  margin: auto;
+}
+@media screen and (max-width: 1250px) {
+  .appContainer {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .appContainer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
