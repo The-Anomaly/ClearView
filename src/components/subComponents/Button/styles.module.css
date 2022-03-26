@@ -1,0 +1,22 @@
+.btn {
+  border: 1px solid transparent;
+  padding: 16px 2rem;
+  font-family: inherit;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+.large {
+}
+.normal {
+    padding: 16px 2rem;
+}
+.full {
+  width: 100%;
+}
+.green {
+  background: #29a47a;
+  color: #fff;
+  border-color: #29a47a;
+}
+.white {
+}
