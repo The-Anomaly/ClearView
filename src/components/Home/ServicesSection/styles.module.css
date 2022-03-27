@@ -1,0 +1,89 @@
+.sectionBG {
+  position: relative;
+}
+.servicesContainer {
+}
+.serviceSection {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.imageSection {
+  width: 43%;
+  text-align: right;
+  padding-top: 3rem;
+  position: relative;
+  height: fit-content;
+}
+.imageSection img {
+  width: 90%;
+  position: relative;
+  z-index: 2;
+}
+.imageSection::before {
+  content: "";
+  background-image: url("../../../assets/vectors/leftShadowBG.svg");
+  position: absolute;
+  top: -3%;
+  left: 1%;
+  z-index: 1;
+  width: 80%;
+  height: auto;
+  display: block;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.textSection {
+  width: 50%;
+}
+.textSection > div {
+  margin-bottom: 2rem;
+  position: relative;
+  padding-left: 3rem;
+}
+.textSection > div::before {
+  content: url("../../../assets/vectors/tickCircleGreen.svg");
+  position: absolute;
+  left: 0;
+}
+.textSection h3 {
+  font-family: "Sora";
+  color: #231c4e;
+  font-size: 1.8rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 2.5rem;
+}
+.textSection p {
+  color: #231c4e;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
+}
+
+.textSection ul {
+  padding-inline-start: 20px;
+  line-height: 2.5;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+.serviceSection:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+.serviceSection:nth-of-type(even) .imageSection {
+  text-align: left;
+}
+.serviceSection:nth-of-type(even) .imageSection::before {
+  background-image: url("../../../assets/vectors/rightShadowBG.svg");
+  position: absolute;
+  left: unset;
+  right: -12%;
+  z-index: 1;
+}
+.curve {
+  position: absolute;
+  right: 0;
+  bottom: 30%;
+  z-index: -1;
+}

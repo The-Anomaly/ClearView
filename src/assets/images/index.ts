@@ -8,8 +8,16 @@ import efficiencyImage from "./efficiency.png";
 import leadershipImage from "./leadership.png";
 import relationshipImage from "./relationship.png";
 import attitudeImage from "./attitude.png";
+import serviceFirstImage from "./serviceFirstImage.png";
+import serviceSecondImage from "./serviceSecondImage.png";
+import serviceThirdImage from "./serviceThirdImage.png";
+import serviceFourthImage from "./serviceFourthImage.png";
 
 export {
+  serviceFirstImage,
+  serviceSecondImage,
+  serviceFourthImage,
+  serviceThirdImage,
   logoBlack,
   logoBlue,
   logoWhite,
