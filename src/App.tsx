@@ -1,15 +1,7 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Home } from "pages";
-import { Layout } from "components";
+import { MainRouter } from "routes";
 
 const App = () => {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout><Home /></Layout>} />
-      </Routes>
-    </BrowserRouter>
-  );
+  return <MainRouter />;
 };
 
 export default App;
