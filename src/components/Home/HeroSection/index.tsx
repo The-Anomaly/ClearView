@@ -1,4 +1,9 @@
-import { HeroBadge, HeroFirstImage, heroSecondImage } from "assets";
+import {
+  HeroBadge,
+  HeroCurveBG,
+  HeroFirstImage,
+  heroSecondImage,
+} from "assets";
 import { Button } from "components/subComponents";
 import * as React from "react";
 import styles from "./styles.module.css";
@@ -24,9 +29,13 @@ const HeroSection = () => {
         <div className={styles.imageSection}>
           <HeroFirstImage className={styles.firstImage} />
           <img src={heroSecondImage} alt="" className={styles.secondImage} />
-          <HeroBadge className={styles.heroBadge} title="created for ambitous business" />
+          <HeroBadge
+            className={styles.heroBadge}
+            title="created for ambitous business"
+          />
         </div>
       </div>
+      <HeroCurveBG className={styles.curve} />
     </section>
   );
 };

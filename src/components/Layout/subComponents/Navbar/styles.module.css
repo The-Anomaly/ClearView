@@ -7,6 +7,8 @@
   border-bottom: 1px solid #c1c7d0;
   padding: 1.4rem 1rem 1.4rem 0;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 .navLogo {
   width: 150px;

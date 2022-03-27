@@ -1,5 +1,6 @@
 .heroBG {
   background: #636c79;
+  position: relative;
 }
 .heroContainer {
   display: flex;
@@ -27,6 +28,7 @@
 .imageSection {
   width: 50%;
   position: relative;
+  z-index: 2;
 }
 .firstImage {
   width: 100%;
@@ -43,4 +45,9 @@
   position: absolute;
   bottom: -77px;
   right: 10px;
+}
+.curve {
+  position: absolute;
+  top: -97px;
+  right: 0;
 }
