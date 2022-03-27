@@ -1,0 +1,45 @@
+.sectionBG {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.newsletterContainer {
+  text-align: center;
+  color: #ffffff;
+  background-color: #29a47a;
+  padding: 2rem 1rem;
+  background-image: url("../../../../assets/vectors/newsletterBG.svg");
+}
+.newsletterContainer h6 {
+  font-family: "Sora";
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.newsletterContainer p {
+  letter-spacing: 0.7px;
+  margin-bottom: 2rem;
+  font-size: 15px;
+}
+.newsletterContainer > div {
+  background: #fff;
+  margin: auto;
+  max-width: 600px;
+  padding: 6px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.newsletterContainer > div > input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  padding-left: 2rem;
+  letter-spacing: 0.3px;
+  padding-right: 4px;
+}
+.btn {
+  font-family: "Sora";
+  font-weight: 800;
+  font-size: 14px;
+  padding: 14px 3.5rem;
+  letter-spacing: normal;
+}

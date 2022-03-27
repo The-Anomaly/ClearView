@@ -1,11 +1,12 @@
 import * as React from "react";
-import { Navbar } from "./subComponents";
+import { Navbar, Newsletter } from "./subComponents";
 
 const Layout = ({children}) => {
   return (
     <React.Fragment>
       <Navbar />
       {children}
+      <Newsletter />
     </React.Fragment>
   );
 };
