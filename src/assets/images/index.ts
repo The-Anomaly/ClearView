@@ -12,8 +12,14 @@ import serviceFirstImage from "./serviceFirstImage.png";
 import serviceSecondImage from "./serviceSecondImage.png";
 import serviceThirdImage from "./serviceThirdImage.png";
 import serviceFourthImage from "./serviceFourthImage.png";
+import clientImage1 from "./clientImage1.png";
+import clientImage2 from "./clientImage2.png";
+import clientImage3 from "./clientImage3.png";
 
 export {
+  clientImage1,
+  clientImage2,
+  clientImage3,
   serviceFirstImage,
   serviceSecondImage,
   serviceFourthImage,

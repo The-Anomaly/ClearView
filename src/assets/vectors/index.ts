@@ -6,6 +6,7 @@ import { ReactComponent as HeroCurveBG } from "./heroCurveBG.svg";
 import { ReactComponent as BrandCurveBG } from "./brandCurveBG.svg";
 import { ReactComponent as ValuesCurveBG } from "./valuesCurveBG.svg";
 import { ReactComponent as ServicesCurveBG } from "./servicesCurveBG.svg";
+import { ReactComponent as TestimonialCurveBG } from "./testimonialCurveBG.svg";
 import { ReactComponent as UBALogo } from "./UBALogo.svg";
 import { ReactComponent as InterswitchLogo } from "./InterswitchLogo.svg";
 import { ReactComponent as KudaLogo } from "./KudaLogo.svg";
@@ -21,6 +22,7 @@ export {
   BrandCurveBG,
   ValuesCurveBG,
   ServicesCurveBG,
+  TestimonialCurveBG,
   UBALogo,
   InterswitchLogo,
   KudaLogo,
