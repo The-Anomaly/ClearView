@@ -23,21 +23,7 @@ const BrandSection = () => {
           <ThePeerLogo title="The peer logo" />
           <PatriciaLogo title="Patricia logo" />
         </div>
-        <div className={styles.videoSec}>
-          <BrandBadge
-            className={styles.badge}
-            title="created for ambitous business"
-          />
-        </div>
-        <p>We connect your businesses with your target</p>
-        <Button
-          text="Contact us"
-          type="green"
-          size="large"
-          onClick={() => console.log("get started")}
-        />
       </div>
-      <BrandCurveBG className={styles.curve} />
     </section>
   );
 };

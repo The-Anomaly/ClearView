@@ -1,0 +1,37 @@
+.sectionBG {
+  position: relative;
+}
+.brandContainer {
+  text-align: center;
+  color: #231c4e;
+  font-family: "Sora";
+  padding-bottom: 3rem;
+}
+.brandContainer p {
+  font-size: 1.4rem;
+  margin: 0 auto 2.5rem;
+  max-width: 350px;
+  line-height: 1.5;
+}
+.videoSec {
+  width: 100%;
+  max-width: 900px;
+  background: #e1e1e1;
+  margin: 1rem auto 3rem;
+  padding: 1rem;
+  aspect-ratio: 7/4;
+  position: relative;
+}
+.badge {
+  position: absolute;
+  width: 110px;
+  right: -50px;
+  bottom: -50px;
+}
+.curve {
+  position: absolute;
+  left: 0;
+  bottom: -2rem;
+  z-index: -1;
+  bottom: -180px;
+}
