@@ -1,13 +1,10 @@
 import {
-  BrandBadge,
-  BrandCurveBG,
   InterswitchLogo,
   KudaLogo,
   PatriciaLogo,
   ThePeerLogo,
   UBALogo,
 } from "assets";
-import { Button } from "components/subComponents";
 import * as React from "react";
 import styles from "./styles.module.css";
 

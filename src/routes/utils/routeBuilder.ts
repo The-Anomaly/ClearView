@@ -1,5 +1,5 @@
 import { Layout } from "components";
-import { Home } from "pages";
+import { About, Home } from "pages";
 import { RouteProps } from "react-router-dom";
 import { Routes } from "./routes";
 
@@ -27,6 +27,12 @@ export const RouteBuilder: RouteBuilderItem[] = [
   {
     path: Routes.home,
     Element: Home,
+    caseSensitive: true,
+    Layout: Layout,
+  },
+  {
+    path: Routes.aboutUs,
+    Element: About,
     caseSensitive: true,
     Layout: Layout,
   },

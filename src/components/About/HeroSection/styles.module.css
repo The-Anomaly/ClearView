@@ -1,0 +1,39 @@
+.sectionBG {
+  background: #636c79;
+  position: relative;
+}
+.heroContainer {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+.subTxt {
+  color: #29a47a;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  margin-bottom: 1rem;
+}
+.ttl {
+  font-family: "Sora";
+  color: #f3f3f3;
+  margin-bottom: 1rem;
+  font-size: 2.75rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.txt {
+  color: #ececec;
+  line-height: 2;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 0.8px;
+  font-size: 14px;
+}
+
+.curve {
+  position: absolute;
+  top: -97px;
+  right: 0;
+}
