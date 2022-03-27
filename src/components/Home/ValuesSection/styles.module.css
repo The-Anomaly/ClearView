@@ -1,0 +1,62 @@
+.sectionBG {
+  position: relative;
+}
+.valuesContainer {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.valuesContainer h2 {
+  font-family: "Sora";
+  color: #231c4e;
+  font-size: 1.7rem;
+  margin-bottom: 1.6rem;
+}
+.valuesContainer > p {
+  line-height: 1.8;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+}
+.cardsWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 870px;
+  flex-wrap: wrap;
+}
+
+/* Card */
+.cardContainer {
+  background: #fff;
+  border-radius: 20px;
+  padding: 2.5rem 1.5rem;
+  width: 47.5%;
+  margin-bottom: 3rem;
+}
+.cardContainer img {
+  margin-bottom: 2.6rem;
+  width: 90px;
+}
+.cardTtl {
+  font-family: "Sora";
+  color: #231c4e;
+  font-weight: 800;
+  margin-bottom: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.cardTxt {
+  line-height: 1.6;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  width: 90%;
+  margin: auto;
+}
+.curve {
+  position: absolute;
+  right: 0;
+  bottom: -200px;
+  z-index: -1;
+}
