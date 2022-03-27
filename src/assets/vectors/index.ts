@@ -12,8 +12,12 @@ import { ReactComponent as InterswitchLogo } from "./InterswitchLogo.svg";
 import { ReactComponent as KudaLogo } from "./KudaLogo.svg";
 import { ReactComponent as PatriciaLogo } from "./PatriciaLogo.svg";
 import { ReactComponent as ThePeerLogo } from "./ThePeerLogo.svg";
+import { ReactComponent as TwitterLogoWhite } from "./twitterLogoWhite.svg";
+import { ReactComponent as FacebookLogoWhite } from "./facebookLogoWhite.svg";
 
 export {
+  TwitterLogoWhite,
+  FacebookLogoWhite,
   ClearViewWhite,
   HeroFirstImage,
   HeroBadge,

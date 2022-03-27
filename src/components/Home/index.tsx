@@ -8,17 +8,13 @@ import { ValuesSection } from "./ValuesSection";
 
 const HomeUI = () => {
   return (
-    <>
-      <section>
-        <HeroSection />
-        <BrandSection />
-        <ValuesSection />
-        <ServicesSection />
-        <Testimonials />
-        <p>Home</p>
-       
-      </section>
-    </>
+    <React.Fragment>
+      <HeroSection />
+      <BrandSection />
+      <ValuesSection />
+      <ServicesSection />
+      <Testimonials />
+    </React.Fragment>
   );
 };
 

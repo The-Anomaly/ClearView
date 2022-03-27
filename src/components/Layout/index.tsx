@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Navbar, Newsletter } from "./subComponents";
+import { Footer, Navbar, Newsletter } from "./subComponents";
 
 const Layout = ({children}) => {
   return (
@@ -7,6 +7,7 @@ const Layout = ({children}) => {
       <Navbar />
       {children}
       <Newsletter />
+      <Footer />
     </React.Fragment>
   );
 };
