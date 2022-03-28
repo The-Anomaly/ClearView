@@ -1,5 +1,5 @@
 import * as React from "react";
-import { BrandSection } from "./BrandSection";
+import { BrandSection } from "../subComponents";
 import { HeroSection } from "./HeroSection";
 import { ServicesSection } from "./ServicesSection";
 import { Testimonials } from "./Testimonials";

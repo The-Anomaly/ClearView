@@ -14,8 +14,12 @@ import { ReactComponent as PatriciaLogo } from "./PatriciaLogo.svg";
 import { ReactComponent as ThePeerLogo } from "./ThePeerLogo.svg";
 import { ReactComponent as TwitterLogoWhite } from "./twitterLogoWhite.svg";
 import { ReactComponent as FacebookLogoWhite } from "./facebookLogoWhite.svg";
+import { ReactComponent as LinkedinLogoWhite } from "./linkedinLogoWhite.svg";
+import { ReactComponent as AboutHeroCurveBG } from "./aboutHeroCurveBG.svg";
 
 export {
+  AboutHeroCurveBG,
+  LinkedinLogoWhite,
   TwitterLogoWhite,
   FacebookLogoWhite,
   ClearViewWhite,

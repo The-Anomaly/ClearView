@@ -1,3 +1,4 @@
+import { AboutHeroCurveBG } from "assets";
 import * as React from "react";
 import styles from "./styles.module.css";
 
@@ -17,6 +18,7 @@ const HeroSection = () => {
           enterprises.
         </p>
       </div>
+      <AboutHeroCurveBG className={styles.curve} />
     </section>
   );
 };

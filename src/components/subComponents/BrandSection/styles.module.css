@@ -1,0 +1,21 @@
+.sectionBG {
+  position: relative;
+}
+.brandContainer {
+  text-align: center;
+  color: #231c4e;
+  font-family: "Sora";
+  padding-top: 5rem;
+  padding-bottom: 5.5rem;
+}
+.brandContainer h2 {
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+}
+.logoSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+}

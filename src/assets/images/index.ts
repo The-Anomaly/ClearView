@@ -15,8 +15,10 @@ import serviceFourthImage from "./serviceFourthImage.png";
 import clientImage1 from "./clientImage1.png";
 import clientImage2 from "./clientImage2.png";
 import clientImage3 from "./clientImage3.png";
+import teamMember from "./teamMember.png";
 
 export {
+  teamMember,
   clientImage1,
   clientImage2,
   clientImage3,
