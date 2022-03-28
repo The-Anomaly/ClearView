@@ -41,7 +41,6 @@
   bottom: 1.3rem;
   background: rgba(255, 255, 255, 0.24);
   border: 1px solid #ffffff;
-  box-sizing: border-box;
   backdrop-filter: blur(60px);
   color: #fff;
   padding: 1.2rem 1.2rem 1rem;

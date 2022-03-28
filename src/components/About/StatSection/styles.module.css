@@ -1,0 +1,58 @@
+.sectionBG {
+  position: relative;
+}
+.statContainer {
+  padding-top: 4rem;
+}
+
+.ttl {
+  font-family: "Sora";
+  color: #231c4e;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.txt {
+  text-align: center;
+  letter-spacing: 0.8px;
+  font-size: 14px;
+  margin-bottom: 3.5rem;
+}
+.statListWrapper {
+  background-image: url("../../../assets/images/statBG.png");
+  padding: 6rem 7%;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 1rem;
+}
+
+/* Stat */
+.statCard {
+  text-align: center;
+  width: 31%;
+  background: rgba(255, 255, 255, 0.24);
+  border: 1px solid #ffffff;
+  backdrop-filter: blur(60px);
+  color: #fff;
+  padding: 1.65rem 1rem 1.5rem;
+}
+.statCardVal {
+  font-family: "Sora";
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.statCardTtl {
+  font-family: "Sora";
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+.statCardTxt {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1.4px;
+}
