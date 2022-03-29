@@ -1,0 +1,71 @@
+.sectionBG {
+    position: relative;
+}
+.contactFormContainer {
+  border-top: 1px solid #e1e1e1;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.textArea {
+  text-align: center;
+}
+.textArea p:first-of-type {
+  color: #29a47a;
+  font-family: "Sora";
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.textArea h4 {
+  color: #231c4e;
+  font-family: "Sora";
+  margin-bottom: 12px;
+  font-size: 1.15rem;
+}
+.textArea p:last-of-type {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.formContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 12px;
+  max-width: 450px;
+  margin: 2rem auto;
+}
+.formContainer > div {
+  margin-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+.formContainer > div > label {
+  font-size: 13px;
+  opacity: 0.8;
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 0.8px;
+}
+.formContainer > div > input,
+.formContainer > div > textarea {
+  border: 1px solid #c1c7d0;
+  background: transparent;
+  padding-left: 10px;
+}
+.formContainer > div > input {
+  height: 48px;
+}
+.formContainer > div > textarea {
+  padding: 1rem;
+  max-height: 150px;
+  min-height: 150px;
+}
+.halfInput {
+  width: 47%;
+}
+.fullInput {
+  width: 100%;
+}
+.btn {
+  width: 100%;
+  margin-top: 2rem;
+}
