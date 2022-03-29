@@ -16,8 +16,14 @@ import { ReactComponent as TwitterLogoWhite } from "./twitterLogoWhite.svg";
 import { ReactComponent as FacebookLogoWhite } from "./facebookLogoWhite.svg";
 import { ReactComponent as LinkedinLogoWhite } from "./linkedinLogoWhite.svg";
 import { ReactComponent as AboutHeroCurveBG } from "./aboutHeroCurveBG.svg";
+import { ReactComponent as LocationGreenOutline } from "./locationGreenOutline.svg";
+import { ReactComponent as MailGreenOutline } from "./mailGreenOutline.svg";
+import { ReactComponent as PhoneGreenOutline } from "./phoneGreenOutline.svg";
 
 export {
+  LocationGreenOutline,
+  MailGreenOutline,
+  PhoneGreenOutline,
   AboutHeroCurveBG,
   LinkedinLogoWhite,
   TwitterLogoWhite,
