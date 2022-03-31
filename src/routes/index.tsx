@@ -19,18 +19,24 @@ const MainRouter: React.FC = () => {
       <ScrollToTop />
       <Routes>
         {RouteBuilder.map((item, idx) => {
-          const { Element, path, caseSensitive, Layout } = item;
+          const { Element, path, caseSensitive, Layout, LayoutProps } = item;
           // Checks if a layout exists or not
-          const PageComponent =
-            Layout ? (
-              <Layout>
-                <Element />
-              </Layout>
-            ) : (
+          const PageComponent = Layout ? (
+            <Layout {...LayoutProps}>
               <Element />
-            );
+            </Layout>
+          ) : (
+            <Element />
+          );
 
-          return <Route key={idx} path={path} element={PageComponent} caseSensitive={caseSensitive} />;
+          return (
+            <Route
+              key={idx}
+              path={path}
+              element={PageComponent}
+              caseSensitive={caseSensitive}
+            />
+          );
         })}
       </Routes>
     </BrowserRouter>

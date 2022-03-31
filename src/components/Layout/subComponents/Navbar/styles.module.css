@@ -30,3 +30,21 @@
   color: #fff;
   font-weight: 500;
 }
+.active {
+  font-weight: 500;
+}
+.light {
+  background: #f2f2f2;
+}
+.light .navLogo path {
+  fill: #231c4e;
+}
+.light .navList {
+  color: #989fb1;
+}
+.light .active {
+  color: #231c4e;
+}
+.light .navList a:hover {
+  color: #231c4e;
+}

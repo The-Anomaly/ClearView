@@ -1,10 +1,12 @@
 import * as React from "react";
-import { Footer, Navbar, Newsletter } from "./subComponents";
+import { Footer, Navbar, NavbarProps, Newsletter } from "./subComponents";
 
-const Layout = ({children}) => {
+export interface LayoutProps extends NavbarProps {}
+
+const Layout: React.FC<LayoutProps> = ({ children, active, light }) => {
   return (
     <React.Fragment>
-      <Navbar />
+      <Navbar active={active} light={light} />
       {children}
       <Newsletter />
       <Footer />
