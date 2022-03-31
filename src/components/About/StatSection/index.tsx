@@ -1,3 +1,4 @@
+import { BrandCurveBG } from "assets";
 import styles from "./styles.module.css";
 
 interface StatProps {
@@ -52,6 +53,7 @@ const StatSection = () => {
           ))}
         </div>
       </div>
+      <BrandCurveBG className={styles.curve} />
     </section>
   );
 };

@@ -31,7 +31,6 @@
 .curve {
   position: absolute;
   left: 0;
-  bottom: -2rem;
   z-index: -1;
   bottom: -180px;
 }

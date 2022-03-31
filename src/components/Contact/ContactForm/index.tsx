@@ -1,9 +1,10 @@
+import { BrandCurveBG } from "assets";
 import { Button } from "components/subComponents";
 import styles from "./styles.module.css";
 
 const ContactForm = () => {
   return (
-    <section>
+    <section className={styles.sectionBG}>
       <div className={`appContainer ${styles.contactFormContainer}`}>
         <div className={styles.textArea}>
           <p>Contact Us</p>
@@ -36,6 +37,7 @@ const ContactForm = () => {
           />
         </form>
       </div>
+      <BrandCurveBG className={styles.curve} />
     </section>
   );
 };

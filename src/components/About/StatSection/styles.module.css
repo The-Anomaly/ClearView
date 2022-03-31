@@ -56,3 +56,10 @@
   font-weight: 300;
   letter-spacing: 1.4px;
 }
+.curve {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  top: -80%;
+  width: 30%;
+}

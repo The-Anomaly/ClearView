@@ -6,6 +6,8 @@
   text-align: center;
   padding-top: 4rem;
   padding-bottom: 3rem;
+  position: relative;
+  z-index: 1;
 }
 .subTxt {
   color: #29a47a;
@@ -37,6 +39,7 @@
   position: absolute;
   top: -97px;
   right: 0;
+  width: 33%;
 }
 .curve path {
   fill: #ECECEC;
